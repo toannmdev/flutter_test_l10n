@@ -2,7 +2,8 @@ name: intl_example
 description: Example of a Flutter app using the intl library services.
 
 environment:
-  sdk: ^3.3.0
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: 3.13.6
 
 dependencies:
   flutter:
@@ -12,11 +13,11 @@ dependencies:
   intl: any # Use the pinned version from flutter_localizations
 
 dev_dependencies:
-  example_utils:
-    path: ../../example_utils
+  # example_utils:
+  #   path: ../../example_utils
   flutter_test:
     sdk: flutter
-  intl_translation: ^0.19.0
+  intl_translation: ^0.18.2
 
 flutter:
   uses-material-design: true

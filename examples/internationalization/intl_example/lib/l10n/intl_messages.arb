@@ -1,6 +1,14 @@
 {
+  "@@locale": "en",
+  "@@last_modified": "2024-03-28T23:22:37.568116",
   "title": "Hello World",
   "@title": {
+    "description": "Title for the Demo application",
+    "type": "text",
+    "placeholders": {}
+  },
+  "test": "Test",
+  "@test": {
     "description": "Title for the Demo application",
     "type": "text",
     "placeholders": {}

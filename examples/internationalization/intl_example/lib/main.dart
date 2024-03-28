@@ -72,6 +72,15 @@ class DemoLocalizations {
       locale: localeName,
     );
   }
+
+  String get test {
+    return Intl.message(
+      'Test',
+      name: 'test',
+      desc: 'Title for the Demo application',
+      locale: localeName,
+    );
+  }
 }
 // #enddocregion DemoLocalizations
 

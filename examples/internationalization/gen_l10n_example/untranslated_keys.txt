@@ -1,0 +1,8 @@
+{
+  "es": [
+    "hello",
+    "nWombats",
+    "pronoun",
+    "numberOfDataPoints"
+  ]
+}
