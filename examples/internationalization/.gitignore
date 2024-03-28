@@ -1,12 +1,72 @@
 .DS_Store
-pubspec.lock
+.dart_tool/
 
-*/**/android
-*/**/ios
-*/**/web
-*/**/linux
-*/**/macos
-*/**/windows
-*/**/winuwp
-*/**/.gitignore
-*/**/.metadata
+.packages
+.pub/
+
+.idea/
+.vagrant/
+.sconsign.dblite
+.svn/
+
+# Flutter/
+
+*.swp
+profile
+
+DerivedData/
+
+.generated/
+.generated/*
+
+app/windows/flutter/generated_plugin_registrant.cc
+app/windows/flutter/generated_plugins.cmake
+
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+xcuserdata
+
+*.moved-aside
+
+*.pyc
+*sync/
+Icon?
+.tags*
+
+build/
+.android/
+.ios/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# fvm
+.fvm/flutter_sdk
+*/.fvm/flutter_sdk
+
+# vscode
+# .vscode/settings.json
+script/build_staging/last_build_ios_on_this_device.txt
+
+*.g.part
+
+*/locales/gp_localization_generator.csv
+
+app/pubspec_overrides.yaml
+
+*/pubspec_overrides.yaml
+
+*.iml
