@@ -3,6 +3,6 @@ template-arb-file: app_en.arb
 output-localization-file: app_localizations.dart
 untranslated-messages-file: untranslated_keys.txt
 header-file: header-file.txt
-synthetic-package: true
+synthetic-package: false
 output-dir: lib/l10n/output
-# output-class: S
+output-class: S

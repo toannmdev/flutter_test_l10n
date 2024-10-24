@@ -15,8 +15,8 @@ class SEs extends S {
   String get helloWorld => '¡Hola Mundo!';
 
   @override
-  String hello(String userName) {
-    return 'Hello $userName';
+  String hello(Object userName213123123123) {
+    return 'Hello $userName213123123123';
   }
 
   @override
@@ -42,7 +42,7 @@ class SEs extends S {
     String _temp0 = intl.Intl.selectLogic(
       gender,
       {
-        'male': 'he',
+        'male123': 'he',
         'female': 'she',
         'other': 'they',
       },

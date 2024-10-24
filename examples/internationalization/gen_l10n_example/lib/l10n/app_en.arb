@@ -4,8 +4,8 @@
   "@helloWorld": {
     "description": "The conventional newborn programmer greeting"
   },
-  "hello": "Hello {userName}",
-  "@hello": {
+  "hello": "Hello {userName213123123123}",
+  "@hello123": {
     "description": "A message with a single parameter",
     "placeholders": {
       "userName": {
@@ -24,7 +24,7 @@
       }
     }
   },
-  "pronoun": "{gender, select, male{he} female{she} other{they}}",
+  "pronoun": "{gender, select, male123{he} female{she} other{they}}",
   "@pronoun": {
     "description": "A gendered message",
     "placeholders": {

@@ -81,6 +81,15 @@ class DemoLocalizations {
       locale: localeName,
     );
   }
+
+  String get abc {
+    return Intl.message(
+      'ABC',
+      name: 'abc',
+      desc: 'Title for the Demo application',
+      locale: localeName,
+    );
+  }
 }
 // #enddocregion DemoLocalizations
 

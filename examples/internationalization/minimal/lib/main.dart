@@ -25,6 +25,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart' show SynchronousFuture;
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:intl/intl.dart';
 
 // #docregion Demo
 class DemoLocalizations {
@@ -49,6 +50,18 @@ class DemoLocalizations {
 
   String get title {
     return _localizedValues[locale.languageCode]!['title']!;
+  }
+
+  String get test {
+    return Intl.message(
+      'Test',
+      name: 'test',
+      desc: 'Title for the Demo application 123',
+      locale: locale.countryCode,
+      examples: {
+        "example": "Pass a name"
+      }
+    );
   }
 }
 // #enddocregion Demo

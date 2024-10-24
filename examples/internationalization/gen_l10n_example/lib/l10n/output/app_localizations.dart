@@ -103,11 +103,11 @@ abstract class S {
   /// **'Hello World!'**
   String get helloWorld;
 
-  /// A message with a single parameter
+  /// No description provided for @hello.
   ///
   /// In en, this message translates to:
-  /// **'Hello {userName}'**
-  String hello(String userName);
+  /// **'Hello {userName213123123123}'**
+  String hello(Object userName213123123123);
 
   /// A plural message
   ///
@@ -118,7 +118,7 @@ abstract class S {
   /// A gendered message
   ///
   /// In en, this message translates to:
-  /// **'{gender, select, male{he} female{she} other{they}}'**
+  /// **'{gender, select, male123{he} female{she} other{they}}'**
   String pronoun(String gender);
 
   /// A message with a formatted int parameter
